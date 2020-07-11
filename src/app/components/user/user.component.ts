@@ -15,16 +15,5 @@ export class UserComponent implements OnInit {
   constructor() {
   }
 
-  ngOnInit() {
-    this.user = {
-      firstName: 'John',
-      lastName: 'Doe',
-      age: 30,
-      address: {
-        street: '50',
-        city: 'Boston',
-        state: 'MA',
-      },
-    };
-  }
+  ngOnInit() {}
 }
